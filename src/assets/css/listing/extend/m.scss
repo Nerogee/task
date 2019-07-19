@@ -1,0 +1,59 @@
+@media(min-width: $m){
+  body {
+    .app-listing-wrapper {
+      .listing-wrapper {
+        .listing-app-row {
+          height: 100px;
+          .listing-app-row__ranking {
+            font-size: 22px;
+          }
+          .listing-app-row__image-wrapper {
+            margin-right: 10px;
+            .listing-app-row__image {
+              width: 75px;
+              height: 75px;
+            }
+          }
+
+          &:nth-child(odd) {
+            .listing-app-row__image {
+              border-radius: 20px;
+            }
+          }
+
+          &:nth-child(even) {
+            .listing-app-row__image {
+              border-radius: 40px;
+            }
+          }
+
+          .listing-app-row__app-info {
+            display: flex;
+            flex-direction: column;
+            height: 80%;
+            justify-content: space-between;
+            font-size: 18px;
+            margin: 5px 0;
+            .listing-app-row__app-info-genre {
+              font-size: 16px;
+              color: grey;
+            }
+          }
+          .listing-app-row__app-info-rating {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .star {
+              width: 15px;
+              height: 15px;
+              padding: 0 4px;
+            }
+            .listing-app-row__app-info-rating-count {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

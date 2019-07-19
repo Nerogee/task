@@ -1,0 +1,32 @@
+@media(min-width: $m){
+  body {
+    .app-recommendation-wrapper {
+      .app-recommendation__title {
+        font-size: 25px;
+        margin: 20px 10px 0px;
+      }
+      .app-recommendation-row {
+        border-bottom: 1px solid $light_grey;
+        padding: 20px 5px 20px 5px;
+
+        .app-recommendation-row__app-item {
+          margin: 0 5px;
+          width: 110px!important;
+          .app-recommendation-row__app-item-image {
+            width: 110px;
+            height: 110px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+          }
+          .app-recommendation-row__app-item-name {
+            font-size: 18px;
+          }
+          .app-recommendation-row__app-info-genre {
+            font-size: 14px;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+body {
+  .app-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "open sans","sans-serif","微软雅黑";
+    width: 100%;
+    margin: 0 auto;
+    .app-scroll-wrapper {
+      max-height: 700px;
+      overflow: auto;
+    }
+    .app-wrapper__loading-indicator {
+
+    }
+  }
+}

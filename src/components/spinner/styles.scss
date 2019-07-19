@@ -1,0 +1,145 @@
+.admin__data-grid-loading-mask {
+  background: rgba(255,255,255,0.5);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  .spinner {
+    font-size: 2rem;
+    left: 50%;
+    margin-left: -2rem;
+    margin-top: -2rem;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    height: 1em;
+    margin-right: 1.5rem;
+    width: 1em;
+    span {
+      -webkit-transform: scale(.4);
+      -moz-transform: scale(.4);
+      -ms-transform: scale(.4);
+      transform: scale(.4);
+      -webkit-animation-name: fade;
+      -moz-animation-name: fade;
+      -ms-animation-name: fade;
+      animation-name: fade;
+      -webkit-animation-duration: .72s;
+      -moz-animation-duration: .72s;
+      -ms-animation-duration: .72s;
+      animation-duration: .72s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: linear;
+      -moz-animation-direction: linear;
+      -ms-animation-direction: linear;
+      animation-direction: linear;
+      background-color: #fff;
+      border-radius: 6px;
+      clip: rect(0 .28571429em .1em 0);
+      height: .1em;
+      margin-top: .5em;
+      position: absolute;
+      width: 1em;
+    }
+    & > span:nth-child(1) {
+      -webkit-animation-delay: .27s;
+      -moz-animation-delay: .27s;
+      -ms-animation-delay: .27s;
+      animation-delay: .27s;
+      -webkit-transform: rotate(-315deg);
+      -moz-transform: rotate(-315deg);
+      -ms-transform: rotate(-315deg);
+      transform: rotate(-315deg);
+    }
+
+    & > span:nth-child(2) {
+      -webkit-animation-delay: .36s;
+      -moz-animation-delay: .36s;
+      -ms-animation-delay: .36s;
+      animation-delay: .36s;
+      -webkit-transform: rotate(-270deg);
+      -moz-transform: rotate(-270deg);
+      -ms-transform: rotate(-270deg);
+      transform: rotate(-270deg);
+    }
+
+    & > span:nth-child(3) {
+      -webkit-animation-delay: .45s;
+      -moz-animation-delay: .45s;
+      -ms-animation-delay: .45s;
+      animation-delay: .45s;
+      -webkit-transform: rotate(-225deg);
+      -moz-transform: rotate(-225deg);
+      -ms-transform: rotate(-225deg);
+      transform: rotate(-225deg);
+    }
+
+    & > span:nth-child(4) {
+      -webkit-animation-delay: .54s;
+      -moz-animation-delay: .54s;
+      -ms-animation-delay: .54s;
+      animation-delay: .54s;
+      -webkit-transform: rotate(-180deg);
+      -moz-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+      transform: rotate(-180deg);
+    }
+
+    & > span:nth-child(5) {
+      -webkit-animation-delay: .63s;
+      -moz-animation-delay: .63s;
+      -ms-animation-delay: .63s;
+      animation-delay: .63s;
+      -webkit-transform: rotate(-135deg);
+      -moz-transform: rotate(-135deg);
+      -ms-transform: rotate(-135deg);
+      transform: rotate(-135deg);
+    }
+
+    & > span:nth-child(6) {
+      -webkit-animation-delay: .72s;
+      -moz-animation-delay: .72s;
+      -ms-animation-delay: .72s;
+      animation-delay: .72s;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+    }
+
+    & > span:nth-child(7) {
+      -webkit-animation-delay: .81s;
+      -moz-animation-delay: .81s;
+      -ms-animation-delay: .81s;
+      animation-delay: .81s;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+
+    & > span:nth-child(8) {
+      -webkit-animation-delay: .9s;
+      -moz-animation-delay: .9s;
+      -ms-animation-delay: .9s;
+      animation-delay: .9s;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  }
+}
+@keyframes fade {
+  0% {
+    background-color: #514943;
+  }
+  100% {
+    background-color: #fff;
+  }
+}

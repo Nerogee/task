@@ -1,0 +1,24 @@
+@media(min-width: $m){
+  body {
+    .app-search-wrapper {
+      height: 65px;
+      .app-search__search-box-wrapper {
+        .app-search__search-box {
+          height: 45px;
+          border-radius: 10px;
+          margin: 0 15px;
+          padding-left: 15px;
+          padding-right: 15px;
+          font-size: 18px;
+        }
+        .app-search__placeholder {
+          font-size: 25px;
+          .search-icon {
+            font-size: 35px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}

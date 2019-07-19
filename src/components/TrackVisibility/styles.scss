@@ -1,0 +1,10 @@
+.visibility-wrapper {
+  &.fly-in {
+    transform: translateY(150px);
+    animation: fly-in 0.8s ease forwards;
+  }
+}
+
+@keyframes fly-in {
+  to { transform: translateY(0); }
+}
