@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/task/static/css/main.fbad03f4.chunk.css",
+    "main.css": "/task/static/css/main.d709509c.chunk.css",
     "main.js": "/task/static/js/main.3d3b04f3.chunk.js",
     "main.js.map": "/task/static/js/main.3d3b04f3.chunk.js.map",
     "runtime~main.js": "/task/static/js/runtime~main.f79bd0da.js",
@@ -9,10 +9,10 @@
     "static/js/2.05f0c144.chunk.js": "/task/static/js/2.05f0c144.chunk.js",
     "static/js/2.05f0c144.chunk.js.map": "/task/static/js/2.05f0c144.chunk.js.map",
     "index.html": "/task/index.html",
-    "precache-manifest.1f4ffab8fa63a76f27b75ab456c257b9.js": "/task/precache-manifest.1f4ffab8fa63a76f27b75ab456c257b9.js",
+    "precache-manifest.6a3da71ed9fd0e4c03dc6ca13eb31982.js": "/task/precache-manifest.6a3da71ed9fd0e4c03dc6ca13eb31982.js",
     "service-worker.js": "/task/service-worker.js",
     "static/css/2.0194576d.chunk.css.map": "/task/static/css/2.0194576d.chunk.css.map",
-    "static/css/main.fbad03f4.chunk.css.map": "/task/static/css/main.fbad03f4.chunk.css.map",
+    "static/css/main.d709509c.chunk.css.map": "/task/static/css/main.d709509c.chunk.css.map",
     "static/media/slick-theme.css": "/task/static/media/slick.f97e3bbf.svg",
     "static/media/star_emtpy.png": "/task/static/media/star_emtpy.6f373829.png",
     "static/media/star_fill.png": "/task/static/media/star_fill.0178cc98.png"
